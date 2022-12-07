@@ -1,6 +1,9 @@
 import fs from "fs";
 import Jimp = require("jimp");
 
+
+const users = [{ id: 1, username: 'filter_image', password: 'VTC834159672', name: 'FilterImage'}];
+
 // filterImageFromURL
 // helper function to download, filter, and save the filtered image locally
 // returns the absolute path to the local image
